@@ -1,6 +1,7 @@
 # Stack Overflown
 
 Organize the falling blocks into the current debug pattern before the stack overflows! ⏳
+
 ## How to Develop
 
 - `index.html` - the game container for playing
