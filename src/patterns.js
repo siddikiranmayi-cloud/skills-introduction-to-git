@@ -11,6 +11,8 @@ const ERROR_PATTERNS = [
     ],
   },
 
+  }
+
   {
     name: "Memory Leak",
     pattern: [
