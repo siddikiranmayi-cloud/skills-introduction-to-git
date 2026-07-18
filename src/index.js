@@ -44,6 +44,9 @@ let dropCounter = 0;
 let dropInterval = 1000;
 let lastTime = 0;
 let targetPattern = null;
+let highScore = 0;
+highScore = parseInt(localStorage.getItem("stackOverflownHighScore")) || 0;
+document.getElementById("high-score").textContent = highScore;
 
 // Initialize game
 function init() {
